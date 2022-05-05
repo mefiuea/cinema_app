@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from rest_framework import generics
+from rest_framework import generics, viewsets
 
 from movielist_app.serializers import MovieSerializer
 from movielist_app.models import Movie
