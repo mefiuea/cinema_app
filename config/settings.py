@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # local
     'movielist_app.apps.MovielistAppConfig',
+    'showtimes_app.apps.ShowtimesAppConfig',
 ]
 
 MIDDLEWARE = [
