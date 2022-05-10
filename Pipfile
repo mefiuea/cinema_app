@@ -9,6 +9,7 @@ psycopg2 = "==2.9.3"
 djangorestframework = "==3.13.1"
 pytest = "==7.1.2"
 pytest-django = "==4.5.2"
+faker = "==13.11.0"
 
 [dev-packages]
 
