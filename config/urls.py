@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('movielist_app.urls')),
     path('', include('showtimes_app.urls')),
+    path('', include('general_app.urls')),
 ]

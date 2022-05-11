@@ -7,6 +7,6 @@ app_name = 'showtimes_app'
 urlpatterns = [
     path('cinemas/', CinemaListView.as_view(), name='cinema_list_view'),
     path('cinemas/<int:pk>/', CinemaView.as_view(), name='cinema_view'),
-    path('screenings/', ScreeningListView.as_view()),
-    path('screenings/<int:pk>/', ScreeningView.as_view()),
+    path('screenings/', ScreeningListView.as_view(), name='screenings_list_view'),
+    path('screenings/<int:pk>/', ScreeningView.as_view(), name='screenings_view'),
 ]
