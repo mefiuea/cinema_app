@@ -2,8 +2,13 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework import generics, viewsets
 
-from movielist_app.serializers import MovieSerializer
-from movielist_app.models import Movie
+from movielist_app.serializers import MovieSerializer, PersonSerializer
+from movielist_app.models import Movie, Person
+
+
+class PersonView(generics.ListCreateAPIView):
+    queryset = Person.objects.all()
+    serializer_class = PersonSerializer
 
 
 class MovieListView(generics.ListCreateAPIView):
