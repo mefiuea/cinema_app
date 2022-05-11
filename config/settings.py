@@ -28,7 +28,7 @@ DEBUG = False
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['backend', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['backend', '127.0.0.1', 'localhost', 'https://cinema-rapi-app.herokuapp.com', 'cinema-rapi-app.herokuapp.com']
 INTERNAL_IPS = ALLOWED_HOSTS
 
 # Application definition
