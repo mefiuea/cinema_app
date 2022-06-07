@@ -2,7 +2,7 @@
 
 ### Application was created to improve skills in Python programming using the Django framework
 
-### This particular application was used to create a REST API type site using the 'djangorestframework' package
+### This particular application was used to create a REST API type site using the 'django rest framework' package
 
 The application has a root view ('Api Root'). From here you can:
 - add people (directors, actors) = 'person' tab,
